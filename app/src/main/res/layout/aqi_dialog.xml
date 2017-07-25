@@ -1,0 +1,247 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/blue_gradient_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textSize="40dp"
+        android:text="Cabin Air Quality" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtActualPM"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Instantaneous PM2.5" />
+        <TextView
+            android:id="@+id/txtActualPMValue"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textSize="30dp"
+            android:layout_height="match_parent"
+            android:text="0" />
+        <TextView
+            android:id="@+id/txtActualPMUnit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="ug/m3" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtAvgPM"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Average PM2.5" />
+        <TextView
+            android:id="@+id/txtAvgPMValue"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textSize="30dp"
+            android:layout_height="match_parent"
+            android:text="0" />
+        <TextView
+            android:id="@+id/txtAvgPMUnit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="ug/m3" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/airQuality"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Air Quality" />
+        <LinearLayout
+            android:id="@+id/txtAirQualityBar"
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtBar1"
+                android:layout_width="0dp"
+                android:layout_weight="80"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txtBar2"
+                android:layout_width="0dp"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txtBar3"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txtBar4"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txtBar5"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/txtBar6"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtBarUnits"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="%"
+            android:textSize="30dp"
+            android:background="@android:color/white"
+            android:layout_height="match_parent" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Close" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="Clear" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+
+</LinearLayout>

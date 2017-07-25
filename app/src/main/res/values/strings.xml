@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SYNC Controller</string>
+
+    <string name="display_title">SYNC Controller</string>
+    <string name="app_link_id">"12333456</string>
+    <string name="device_name">SYNC</string>
+</resources>

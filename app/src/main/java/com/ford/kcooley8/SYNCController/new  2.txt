@@ -1,0 +1,13 @@
+Command for 1p3
+OnClimateFrtStatus1ButtonPress 23 to goggle
+
+Command for 1p2
+OnClimateFrtSystemButtonPress ??
+
+
+Feedback 1p3
+Climate_Stat1_Handler 0 OFF, 1 ON
+
+/fs/mp/apps/usr/sbin/nslogutil -q AppLinkService -m 0xFFFFFC00 -d
+/fs/mp/apps/usr/sbin/nslogutil -q VS_CANShadow -m 0xFFFFFC00 -d
+
